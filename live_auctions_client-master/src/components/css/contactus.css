@@ -1,0 +1,78 @@
+.body {
+    background-image: linear-gradient(rgb(216, 195, 165), rgb(238, 226, 220) );
+    margin: 0;
+    height: 90vh;
+}
+
+iframe {
+    box-shadow: 0 0 1rem 0 rgb(0, 0, 0);
+    /* height: 100%; */
+}
+
+
+/* Center the form */
+.form-container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    
+  }
+  
+  /* Style form elements */
+  .form-group {
+    margin: 0;
+  }
+
+  .para{
+    font-weight: bold;
+    text-decoration: underline;
+    font: sans-serif;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    font: 1em sans-serif;
+    
+
+  }
+  
+  input[type="text"],
+  input[type="email"],
+   textarea {
+    /* width: 13%; */
+    padding: 6px;
+    /* border: 1px solid #ccc;  */
+    border-radius: 6px; 
+    /* margin-top: 5px; */
+    margin-bottom: 10px;
+    /* margin-left: 15px; */
+    /* box-shadow: 0 0 1rem 0 rgb(0, 0, 0); */
+    background-image: linear-gradient(rgb(222, 221, 220), rgb(255, 255, 255) );
+
+  } 
+  
+   Style the submit button
+  button[type="submit"] {
+    background-color: #0056b3;
+    color: #000000;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 4px;
+    cursor: pointer;
+    /* box-shadow: 0 0 1rem 0 rgb(0, 0, 0); */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }  
+  
+  /* Center the submit button */
+  .center-button {
+    display: flex;
+    justify-content: center;
+  }
+  

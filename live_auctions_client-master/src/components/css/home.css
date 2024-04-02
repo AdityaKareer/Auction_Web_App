@@ -1,0 +1,25 @@
+
+
+
+
+.home {
+  display: flex;
+  /* background-color: #eee2dc; */
+  /* background-color: #eee2dc; */
+  background-image: linear-gradient(rgb(216, 195, 165), rgb(238, 226, 220) );
+  
+  /* background: url('/src/images/imgback.jpg');  */
+  /* background-repeat: no-repeat;
+ background-size:cover;
+ background-position: center; */
+  flex-direction: column;
+  height: 120vh;
+  /* opacity: 0.1; */
+}
+
+.home__display {
+  display: flex;
+  height: 100%;
+}
+
+

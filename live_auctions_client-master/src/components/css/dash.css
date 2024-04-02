@@ -1,0 +1,16 @@
+.body {
+    background-image: linear-gradient(rgb(216, 195, 165), rgb(238, 226, 220) );
+    
+}
+
+.boxStyle {
+    box-shadow: 0 0 1rem 0 rgb(0, 0, 0);
+    /* background-image: linear-gradient(rgb(216, 195, 165), rgb(238, 226, 220) ); */
+    
+    /* background-image: linear-gradient(rgb(222, 221, 220), rgb(255, 255, 255) );
+    box-shadow: 0 0 1rem 0 rgb(0, 0, 0); */
+
+    
+   
+}
+
